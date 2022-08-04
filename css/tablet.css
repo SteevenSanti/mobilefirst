@@ -1,0 +1,37 @@
+header{
+    height: 200px;
+}
+.header--title-container h1{
+    height: auto;
+}
+.main-product-datail .product-cards--container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+}
+.main-product-datail .product-cards--container .product-deail--card{
+    width: 95%;
+}
+.plans-container--slider{
+    width: 100%;
+}
+.plans-container--card{
+    width: 100%;
+    margin: 50px 5px 0;
+}
+.container-social ul {
+    display: flex;
+    list-style: none;
+}
+.container-social ul li{
+    flex-grow: 1;
+    
+}
+.container-social ul a{
+    font-size: 1.5rem;
+    
+}
+.container-logo img{
+    height: 80px;
+}
